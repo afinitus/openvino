@@ -54,7 +54,7 @@ def to_ov_type(val):
                 torch.bool: ov.Type.boolean,
             }
             if val not in torch_to_ov_type:
-                raise Exception("The provided data time is not supported {}.".format(val))
+                raise Exception("The provided data type is not supported {}.".format(val))
 
             return torch_to_ov_type[val]
 
@@ -76,7 +76,7 @@ def to_ov_type(val):
             }
 
             if val not in paddle_to_ov_type:
-                raise Exception("The provided data time is not supported {}.".format(val))
+                raise Exception("The provided data type is not supported {}.".format(val))
 
             return paddle_to_ov_type[val]
     raise Exception("Unexpected type object. Expected ov.Type, np.dtype, tf.dtypes.DType. Got {}".format(type(val)))
