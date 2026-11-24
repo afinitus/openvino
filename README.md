@@ -55,7 +55,7 @@ Learn how to optimize and deploy popular models with the [OpenVINO Notebooks](ht
 - [Create an LLM-powered Chatbot using OpenVINO](https://github.com/openvinotoolkit/openvino_notebooks/blob/latest/notebooks/llm-chatbot/llm-chatbot-generate-api.ipynb)
 - [YOLOv11 Optimization](https://github.com/openvinotoolkit/openvino_notebooks/blob/latest/notebooks/yolov11-optimization/yolov11-object-detection.ipynb)
 - [Text-to-Image Generation](https://github.com/openvinotoolkit/openvino_notebooks/blob/latest/notebooks/text-to-image-genai/text-to-image-genai.ipynb)
-- [Multimodal assistant with LLaVa and OpenVINO](https://github.com/openvinotoolkit/openvino_notebooks/blob/latest/notebooks/llava-multimodal-chatbot/llava-multimodal-chatbot-genai.ipynb)
+- [Create a VLM Chatbot with OpenVINO](https://github.com/openvinotoolkit/openvino_notebooks/blob/latest/notebooks/vlm-chatbot/vlm-chatbot-generate-api.ipynb)
 - [Automatic speech recognition using Whisper and OpenVINO](https://github.com/openvinotoolkit/openvino_notebooks/blob/latest/notebooks/whisper-asr-genai/whisper-asr-genai.ipynb)
 
 Discover more examples in the [OpenVINO Samples (Python & C++)](https://docs.openvino.ai/2026/get-started/learn-openvino/openvino-samples.html) and [Notebooks (Python)](https://docs.openvino.ai/2026/get-started/learn-openvino/interactive-tutorials-python.html).
