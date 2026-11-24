@@ -13,9 +13,6 @@ Running and Integrating Inference Pipeline
    running-inference/model-representation
    running-inference/model-input-output
    running-inference/inference-request
-   running-inference/stateful-models
-   running-inference/python-api-advanced-inference
-   running-inference/python-api-exclusives
    running-inference/inference-devices-and-modes
    Optimize Inference <running-inference/optimize-inference>
 
