@@ -42,7 +42,7 @@ def _check_value(op_name, attr_key, value, val_type, cond=None):
     """
     if not np.issubdtype(type(value), val_type):
         raise UserInputError(
-            f'{op_name} operator attribute "{attr_key}" value must by of type {val_type}.',
+            f'{op_name} operator attribute "{attr_key}" value must be of type {val_type}.',
         )
     if cond is not None and not cond(value):
         raise UserInputError(
